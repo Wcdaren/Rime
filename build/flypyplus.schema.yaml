@@ -1,13 +1,13 @@
 __build_info:
-  rime_version: 1.11.2
+  rime_version: 1.5.3
   timestamps:
-    default: 1717774589
-    default.custom: 1565146469
-    flypy.custom: 0
-    flypy.schema: 1565147216
-    key_bindings: 1717774589
+    default: 1561294610
+    default.custom: 1565145345
+    flypyplus.custom: 0
+    flypyplus.schema: 1562419114
+    key_bindings: 1561294610
     key_bindings.custom: 0
-    punctuation: 1717774589
+    punctuation: 1561294610
     punctuation.custom: 0
 custom_phraseVD:
   db_class: stabledb
@@ -84,7 +84,6 @@ key_binder:
     - {accept: Shift_R, send: Escape, when: composing}
     - {accept: "Shift+space", toggle: full_shape, when: always}
     - {accept: "Control+period", toggle: ascii_punct, when: always}
-    - {accept: "Control+m", select: .next, when: always}
   import_preset: default
 menu:
   page_size: 5
@@ -173,10 +172,10 @@ schema:
   author:
     - "方案设计：何海峰 <flypy@qq.com>"
   description: |
-    小鹤音形主码表
-
-  name: "小鹤音形"
-  schema_id: flypy
+    小鹤音形主码表+隐藏全码
+    
+  name: "小鹤音形+"
+  schema_id: flypyplus
   version: 9.7
 simplification:
   opencc_config: s2tw.json
@@ -198,10 +197,11 @@ switches:
   - name: full_shape
   - name: simplification
     reset: 0
+    states: ["简", "繁"]
   - name: ascii_punct
-    reset: 1
+    reset: 0
 translator:
-  dictionary: flypy
+  dictionary: flypyplus
   disable_user_dict_for_patterns:
     - "^z.*$"
   enable_charset_filter: false

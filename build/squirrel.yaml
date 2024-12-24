@@ -1,52 +1,10 @@
 __build_info:
   rime_version: 1.11.2
   timestamps:
-    squirrel: 1714847973
-    squirrel.custom: 0
-app_options:
-  co.zeit.hyper:
-    ascii_mode: true
-  com.alfredapp.Alfred:
-    ascii_mode: true
-  com.apple.Spotlight:
-    ascii_mode: true
-  com.apple.Terminal:
-    ascii_mode: true
-    no_inline: true
-  com.apple.dt.Xcode:
-    ascii_mode: true
-  com.barebones.textwrangler:
-    ascii_mode: true
-  com.blacktree.Quicksilver:
-    ascii_mode: true
-  com.github.atom:
-    ascii_mode: true
-  com.google.Chrome:
-    inline: true
-  com.googlecode.iterm2:
-    ascii_mode: true
-    no_inline: true
-  com.macromates.TextMate.preview:
-    ascii_mode: true
-  com.microsoft.VSCode:
-    ascii_mode: true
-  "com.runningwithcrayons.Alfred-2":
-    ascii_mode: true
-  com.sublimetext.2:
-    ascii_mode: true
-  org.gnu.Aquamacs:
-    ascii_mode: true
-  org.gnu.Emacs:
-    ascii_mode: true
-    no_inline: true
-  org.vim.MacVim:
-    ascii_mode: true
-    no_inline: true
-    vim_mode: true
-  ru.keepcoder.Telegram:
-    inline: true
+    squirrel: 1717774589
+    squirrel.custom: 1735022738
 chord_duration: 0.1
-config_version: 0.38
+config_version: 1.0
 keyboard_layout: last
 preset_color_schemes:
   apathy:
@@ -187,6 +145,32 @@ preset_color_schemes:
     hilited_text_color: 0x7fffff
     name: "明月／Luna"
     text_color: 0xa5a5a5
+  metro:
+    author: flypy.com
+    back_color: 0xffffff
+    border_color: 0xe89f00
+    border_color_width: 1
+    border_height: 8
+    border_width: 8
+    candidate_back_color: 0xffffff
+    candidate_format: "%c %@"
+    candidate_text_color: 0x000000
+    comment_text_color: 0x555555
+    corner_radius: 6
+    font_point: 18
+    hilited_back_color: 0xffffff
+    hilited_candidate_back_color: 0xe89f00
+    hilited_candidate_label_color: 0xeeeeee
+    hilited_candidate_text_color: 0xffffff
+    hilited_comment_text_color: 0xcccccc
+    hilited_text_color: 0x000000
+    horizontal: true
+    inline_preedit: true
+    label_color: 0x555555
+    label_font_point: 14
+    name: metro
+    text_color: 0x333333
+    text_orientation: horizontal
   mojave_dark:
     author: "xiehuc <xiehuc@gmail.com>"
     back_color: 0x252320
@@ -308,16 +292,21 @@ preset_color_schemes:
     text_color: 0xccaa88
 show_notifications_when: appropriate
 style:
-  border_height: 0
-  border_width: 0
+  border_height: "-2"
+  border_width: "-2"
+  candidate_format: "[label]. [candidate] [comment]"
+  candidate_list_layout: stacked
   color_scheme: native
-  comment_font_point: 18
-  corner_radius: 10
-  font_face: "Lucida Grande"
-  font_point: 21
+  corner_radius: 7
+  font_face: Avenir
+  font_point: 16
   hilited_corner_radius: 0
+  inline_candidate: false
   inline_preedit: true
-  label_font_point: 18
   line_spacing: 5
-  spacing: 10
+  memorize_size: true
+  mutual_exclusive: false
+  shadow_size: 0
+  spacing: 8
   text_orientation: horizontal
+  translucency: false

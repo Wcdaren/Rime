@@ -1,19 +1,19 @@
 __build_info:
   rime_version: 1.11.2
   timestamps:
-    default: 1714847973
-    default.custom: 1733822513
-    key_bindings: 1714847973
+    default: 1717774589
+    default.custom: 1565146469
+    key_bindings: 1717774589
     key_bindings.custom: 0
-    punctuation: 1714847973
+    punctuation: 1717774589
     punctuation.custom: 0
 ascii_composer:
   good_old_caps_lock: true
   switch_key:
-    Caps_Lock: noop
+    Caps_Lock: commit_code
     Control_L: noop
     Control_R: noop
-    Shift_L: commit_code
+    Shift_L: noop
     Shift_R: noop
 config_version: 0.40
 key_binder:
@@ -101,10 +101,6 @@ switcher:
   abbreviate_options: true
   caption: "〔方案選單〕"
   fold_options: true
-  hotkeys:
-  # - "Alt+grave"
-  # - "Control+Shift+grave"
-  # - F4
   option_list_separator: "／"
   save_options:
     - full_shape
