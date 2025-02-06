@@ -70,7 +70,6 @@ filestyle:	file
 book.douban.com/tag/	book
 wcdaren@foxmail.com	fox
 辈子	bwzi
-妈蛋	madj
 
 
 
