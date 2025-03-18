@@ -54,6 +54,7 @@
 组件	zujm
 事件	uijm
 并发	bkfa
+泛型	fjxk
 
 
 

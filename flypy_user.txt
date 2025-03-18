@@ -51,7 +51,7 @@
 http://www.hejizhan.com/html/search	heji
 site:zhihu.com 	site
 微信	wwxb
-wcdaren@gmail.com	wc
+wcdaren@gmail.com	wcda
 gaowangcheng2008@qq.com	gaow
 二叉树	eiuu
 摊手	tjuz
@@ -70,6 +70,3 @@ filestyle:	file
 book.douban.com/tag/	book
 wcdaren@foxmail.com	fox
 辈子	bwzi
-
-
-
